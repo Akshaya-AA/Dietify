@@ -1,0 +1,439 @@
+/* General Carousel Image Styling */
+.carousel-img {
+  object-fit: cover;
+  height: 600px; /* Adjust the height to your preference */
+}
+
+/* Carousel Caption Styling */
+.carousel-caption {
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: white;
+  padding: 20px;
+  background: none;
+  width: 100%;
+}
+
+/* Carousel Title Styling */
+.carousel-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/* Choose Your Diet Section */
+.choose-diet-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Card Layout Styling */
+.card-row {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Hover Effect for Card */
+.card-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s ease;
+}
+
+.card:hover .card-hover {
+  opacity: 1;
+}
+
+.diet-name {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* View More Details Button Container */
+.view-more-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.view-recipe-btn {
+  background-color: #60FF42;
+  border: none;
+  color: black;
+  font-size: 1rem;
+  padding: 10px 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Footer Styling */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 30px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  flex-wrap: wrap;
+}
+
+.footer-section h5 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.footer-about p {
+  font-size: 1rem;
+  color: #bbb;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 1.5rem;
+}
+
+.social-icons a:hover {
+  color: #60FF42;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #bbb;
+}
+
+/* FontAwesome Icons */
+.fab {
+  font-family: 'FontAwesome';
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .carousel-title {
+      font-size: 2rem;
+  }
+
+  .card-row {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .card {
+      width: 100%;
+      height: 250px;
+      margin-bottom: 20px;
+  }
+
+  .choose-diet-heading {
+      font-size: 2rem;
+  }
+
+  .footer-content {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .footer-section {
+      padding: 10px;
+      text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-title {
+      font-size: 1.5rem;
+  }
+
+  .carousel-subtitle {
+      font-size: 1rem;
+  }
+
+  .view-recipe-btn {
+      padding: 8px 15px;
+  }
+
+  .diet-name {
+      font-size: 1.2rem;
+  }
+
+  .footer-bottom p {
+      font-size: 0.8rem;
+  }
+}
+
+  /* About page */
+ /* General Body Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+/* About Section */
+.about-section {
+  background-color: white;
+  margin: 30px;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.about-section h2 {
+  color: #60FF42;
+  font-size: 28px;
+}
+
+.about-section p {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+/* Mission Section */
+.mission-section {
+  background-color: #f7fafc;
+}
+
+.mission-container {
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 30px auto;
+  width: 80%;
+  text-align: center;
+}
+
+.mission-container h2 {
+  color: #60FF42;
+}
+
+/* Team Section */
+.team-section {
+  padding: 40px;
+  background-color: white;
+  text-align: center;
+}
+
+.team-section h2 {
+  color: #60FF42;
+  font-size: 28px;
+}
+
+.team-members {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  text-align: center;
+  padding: 20px;
+  flex: 1;
+  max-width: 250px;
+  transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+  transform: scale(1.1);
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.team-member:hover img {
+  transform: rotate(15deg);
+}
+
+.team-member h3 {
+  margin-top: 10px;
+  font-size: 22px;
+  color: #333;
+}
+
+/* Footer Section */
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 30px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.footer-section h5 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.footer-section ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 1.5rem;
+}
+
+.social-icons a:hover {
+  color: #60FF42;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.9rem;
+  color: #bbb;
+}
+
+/* Responsive Styles */
+
+/* For small screens */
+@media (max-width: 768px) {
+  .team-members {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team-member {
+    margin-bottom: 20px;
+    max-width: 300px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .footer-section {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .footer-bottom {
+    margin-top: 20px;
+  }
+}
+
+/* For extra small screens (Mobile Devices) */
+@media (max-width: 480px) {
+  .about-section, .mission-container {
+    padding: 20px;
+  }
+
+  .about-section h2, .mission-container h2 {
+    font-size: 24px;
+  }
+
+  .team-member img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .team-member h3 {
+    font-size: 18px;
+  }
+
+  .footer-content {
+    padding: 20px;
+  }
+
+  .footer-section ul {
+    padding: 0;
+    list-style: none;
+    margin-bottom: 20px;
+  }
+
+  .footer-section ul li a {
+    font-size: 14px;
+  }
+
+  .footer-bottom {
+    font-size: 12px;
+  }
+}
