@@ -214,7 +214,7 @@ const Layout = () => {
         </div>
       </footer>
 
-      <style jsx>{`
+    <style>{`
         .footer {
           background-color: #333;
           color: white;
@@ -340,9 +340,15 @@ const Layout = () => {
 
           .footer-section.newsletter button {
             width: 80%;
-            font-size: 0.  hj8rem;
+            font-size: 0.8rem;
             padding: 6px;
           }
+        }
+
+        /* Dropdown Hover Effect */
+        .nav-item.dropdown:hover .dropdown-menu {
+          display: block;
+          background-color: #50e839; /* Updated color */
         }
       `}</style>
     </div>

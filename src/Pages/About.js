@@ -7,17 +7,17 @@ import foodImage3 from './images/p l roasted salmon with greens.jpg';
 import teamMember1 from './images/person1.jpeg';
 import teamMember2 from './images/person2.jpeg';
 import teamMember3 from './images/person3.jpeg';
-import customer1 from './images/person1.jpeg';
-import customer2 from './images/person2.jpeg';
-import customer3 from './images/person3.jpeg';
+import customer1 from './images/customer review2.jpeg';
+import customer2 from './images/customer review1.jpeg';
+import customer3 from './images/customer review3.jpeg';
 
 function About() {
   return (
     <div className="about-us-page">
-      <h1 className="section-heading " style={{color: '#60FF42'}}>About Us</h1>
+      <h1 className="section-heading" style={{ color: '#60FF42' }}>About Us</h1>
 
       <div className="section-container fadeIn">
-        <div className="section-title" style={{color: '#60FF42'}}>Our Story</div>
+        <div className="section-title" style={{ color: '#60FF42' }}>Our Story</div>
         <div className="section-content">
           <p>
             Dietify started with a simple idea: to provide healthy and delicious food options for everyone.
@@ -27,7 +27,7 @@ function About() {
       </div>
 
       <div className="section-container fadeIn">
-        <div className="section-title" style={{color: '#60FF42'}}>Our Mission</div>
+        <div className="section-title" style={{ color: '#60FF42' }}>Our Mission</div>
         <div className="section-content">
           <p>
             Our mission is to make healthy eating more accessible and enjoyable. We want to inspire people to
@@ -66,7 +66,7 @@ function About() {
       </div>
 
       <div className="section-container fadeIn">
-        <div className="section-title" style={{color: '#60FF42'}}>Meet Our Team</div>
+        <div className="section-title" style={{ color: '#60FF42' }}>Meet Our Team</div>
         <div className="team-cards">
           <div className="team-card">
             <img src={teamMember1} alt="Team Member 1" className="team-image" />
@@ -87,10 +87,12 @@ function About() {
       </div>
 
       <div className="section-container fadeIn">
-        <div className="section-title" style={{color: '#60FF42'}}>Customer Reviews</div>
+        <div className="section-title" style={{ color: '#60FF42' }}>Customer Reviews</div>
         <div className="review-cards">
           <div className="review-card">
-            <img src={customer1} alt="Customer 1" className="review-image" />
+            <div className="review-image-container">
+              <img src={customer1} alt="Customer 1" className="review-image" />
+            </div>
             <div className="review-content">
               <p>"The food was amazing! I loved how fresh everything tasted, and I felt great afterward."</p>
               <div className="rating">
@@ -99,7 +101,9 @@ function About() {
             </div>
           </div>
           <div className="review-card">
-            <img src={customer2} alt="Customer 2" className="review-image" />
+            <div className="review-image-container">
+              <img src={customer2} alt="Customer 2" className="review-image" />
+            </div>
             <div className="review-content">
               <p>"I’ve never had such delicious healthy food. Dietify has truly changed how I eat!"</p>
               <div className="rating">
@@ -108,7 +112,9 @@ function About() {
             </div>
           </div>
           <div className="review-card">
-            <img src={customer3} alt="Customer 3" className="review-image" />
+            <div className="review-image-container">
+              <img src={customer3} alt="Customer 3" className="review-image" />
+            </div>
             <div className="review-content">
               <p>"Absolutely love Dietify! The food is both nutritious and tasty."</p>
               <div className="rating">
@@ -118,6 +124,7 @@ function About() {
           </div>
         </div>
       </div>
+
       <style>
         {`
           .about-us-page {
@@ -223,20 +230,31 @@ function About() {
             transform: scale(1.05);
           }
 
+          .review-image-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 15px;
+          }
+
           .review-image {
             width: 120px;
             height: 120px;
             object-fit: cover;
             border-radius: 50%;
-            margin-bottom: 15px;
           }
 
           .review-content {
             font-size: 1.1rem;
             color: #444;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
           }
 
           .rating {
+            display: flex;
+            justify-content: center;
             margin-top: 10px;
           }
 

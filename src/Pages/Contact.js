@@ -259,7 +259,7 @@ h2 {
   font-size: 16px;
   font-weight: bold;
   color: #ffffff;
-  background-color: #4caf50;
+  background-color: #60FF42;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -267,7 +267,7 @@ h2 {
 }
 
 .submit-button:hover {
-  background-color: #388e3c; 
+  background-color: #60FF42; 
 }
 
 @media (max-width: 768px) {
