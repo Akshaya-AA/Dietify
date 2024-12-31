@@ -7,7 +7,7 @@ import bf5 from './images/s fruit salad.jpg';
 import bf6 from './images/s nuts mixture.jpg';
 import bf7 from './images/s peanutbutter cake.jpg';
 import bf8 from './images/s popcorn.jpg';
-import bf9 from './images/s avacado toast.jpg';
+//import bf9 from './images/s avacado toast.jpg';
 import { FaShoppingBag, FaStar, FaTimes, FaTrashAlt } from 'react-icons/fa';
 
 function SnacksPage() {

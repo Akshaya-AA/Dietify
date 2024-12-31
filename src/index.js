@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './Pages/Layout';
 import Home from './Pages/Home';
 import About from './Pages/About';
@@ -21,7 +21,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <BrowserRouter basename="/Dietify">
+    <Router>
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
@@ -39,7 +39,7 @@ function App() {
           <Route path="desserts" element={<Desserts />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
 
