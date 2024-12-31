@@ -7,7 +7,7 @@ import bf5 from './images/de matcha brownie.webp';
 import bf6 from './images/de waffle ice cream.jpg';
 import bf7 from './images/de walnutcookie.webp';
 import bf8 from './images/de blums crumble cake.jpg';
-import bf9 from './images/de cupcake chocolate.jpg';
+// import bf9 from './images/de cupcake chocolate.jpg';
 import { FaShoppingBag, FaStar, FaTimes, FaTrashAlt } from 'react-icons/fa';
 
 

@@ -7,7 +7,7 @@ import bf5 from './images/d stuffed pepper.jpg';
 import bf6 from './images/d sweet potato.jpg';
 import bf7 from './images/d veg curry.jpg';
 import bf8 from './images/d zucchini noodles.jpg';
-import bf9 from './images/d grilled salmon.jpg';
+// import bf9 from './images/d grilled salmon.jpg';
 import { FaShoppingBag, FaStar, FaTimes, FaTrashAlt } from 'react-icons/fa';
 
 
