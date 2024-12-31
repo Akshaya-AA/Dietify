@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Dietify/static/css/main.65f95f30.css",
-    "main.js": "/Dietify/static/js/main.43a0a697.js",
+    "main.js": "/Dietify/static/js/main.90bcd06a.js",
     "static/media/d roasted chicken.webp": "/Dietify/static/media/d roasted chicken.723121090df420b5a58f.webp",
     "static/media/carousel image3.webp": "/Dietify/static/media/carousel image3.59f279d2c052290a23ba.webp",
     "static/media/carousel image5.webp": "/Dietify/static/media/carousel image5.cb6fd00dcfae73f413c5.webp",
@@ -84,10 +84,10 @@
     "static/media/s banana oatmeal.webp": "/Dietify/static/media/s banana oatmeal.8e5a0bb455a15d060824.webp",
     "index.html": "/Dietify/index.html",
     "main.65f95f30.css.map": "/Dietify/static/css/main.65f95f30.css.map",
-    "main.43a0a697.js.map": "/Dietify/static/js/main.43a0a697.js.map"
+    "main.90bcd06a.js.map": "/Dietify/static/js/main.90bcd06a.js.map"
   },
   "entrypoints": [
     "static/css/main.65f95f30.css",
-    "static/js/main.43a0a697.js"
+    "static/js/main.90bcd06a.js"
   ]
 }
