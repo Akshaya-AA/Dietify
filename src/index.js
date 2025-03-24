@@ -1,4 +1,4 @@
-import React from 'react';
+.import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './Pages/Layout';
