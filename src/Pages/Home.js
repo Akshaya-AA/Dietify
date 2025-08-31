@@ -1,4 +1,4 @@
-import React from 'react';
+.import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import c1 from './images/carousel image2.webp';
 import c2 from './images/carousel image1.webp';
