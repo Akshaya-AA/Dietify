@@ -1,4 +1,4 @@
-.import React from 'react';
+import React from 'react';
 import { FaStar } from 'react-icons/fa';
 
 import foodImage1 from './images/carousel image1.webp';
