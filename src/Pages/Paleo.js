@@ -1,4 +1,4 @@
-.import React, { useState } from 'react';
+import React, { useState } from 'react';
 import pd1 from './images/p b sweet potato hash.jpg';
 import pd2 from './images/p l roasted salmon with greens.jpg';
 import pd3 from './images/p d grilled steak with roasted vegetables.jpg';
