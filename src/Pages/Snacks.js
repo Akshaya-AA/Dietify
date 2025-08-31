@@ -1,4 +1,4 @@
-.import React, { useState } from 'react';
+import React, { useState } from 'react';
 import bf1 from './images/s avacado clices.jpg';
 import bf2 from './images/s avacado toast.jpg';
 import bf3 from './images/s banana oatmeal.webp';
