@@ -1,4 +1,4 @@
-.import React, { useState } from 'react';
+import React, { useState } from 'react';
 import md1 from './images/m b tomato and cucumber salad.jpg';
 import md2 from './images/m l shakshuka.jpg';
 import md3 from './images/m d baked lamb.jpg';
