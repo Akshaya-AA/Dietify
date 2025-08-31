@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+.import React, { useState } from 'react';
 import bf1 from './images/de chia pudding.jpg';
 import bf2 from './images/de cupcake chocolate.jpg';
 import bf3 from './images/de fruit parfait.jpg';
