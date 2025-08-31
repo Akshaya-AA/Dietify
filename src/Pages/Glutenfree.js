@@ -1,4 +1,4 @@
-.import React, { useState } from 'react';
+import React, { useState } from 'react';
 import gld1 from './images/gl b banana bread.jpg';
 import gld2 from './images/gl l rice paper rolls with shrimp and veggies.webp';
 import gld3 from './images/gl d beef Stir fry  vegetables.jpg';
