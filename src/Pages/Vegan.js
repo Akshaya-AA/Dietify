@@ -1,4 +1,4 @@
-.import React, { useState } from 'react';
+import React, { useState } from 'react';
 import vd1 from './images/v  b tofusalad.jpg';
 import vd2 from './images/v l sushirolls.jpg';
 import vd3 from './images/v d spaghetti.webp';
